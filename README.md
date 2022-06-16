@@ -15,6 +15,7 @@ import bracket_control
 ```
 
 ## Example
+
 ```python
 import bracket_control
 
@@ -29,6 +30,7 @@ bracket_control.isBalanced('(]')
 # Unit Test
 
 ## Installation
+
 pytest requires : Python 3.7+
 
 1. Run the following command in your command line:
@@ -42,6 +44,7 @@ pytest 7.1.2
 ```
 
 ## Run pytest
+
 Run the following command in your command line:
 ```bash
 python -m pytest test_bracket_control.py
