@@ -38,11 +38,11 @@ pip install -U pytest
 2. Check that you installed correct version:
 ```bash
 $ pytest –version
-	pytest 7.1.2
+pytest 7.1.2
 ```
 
 ## Run pytest
-1. Run the following command in your command line:
+Run the following command in your command line:
 ```bash
 python -m pytest test_bracket_control.py
 ```
