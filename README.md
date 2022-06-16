@@ -9,7 +9,18 @@ Checks if the brackets sequences are balanced for each set of brackets. Returns 
 ## Usage
 
 1. Add bracket_control.py file in the same directory as your project.
-2. Put the following one line in your project:
+2. Put the following line in your project:
 ```python
 import bracket_control
+```
+
+## Example
+```python
+import bracket_control
+
+# returns 'YES'
+bracket_control.isBalanced('([{}])')
+
+# returns 'NO'
+bracket_control.isBalanced('(]')
 ```
