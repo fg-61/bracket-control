@@ -1,26 +1,15 @@
-# Foobar
+# Bracket Control
 
-Foobar is a Python library for dealing with word pluralization.
+bracket_control is a module containing the function isBalanced.
 
-## Installation
+## isBalanced Function Description
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+Checks if the brackets sequences are balanced for each set of brackets. Returns YES if a string is balanced. Otherwise, it returns NO.
 
 ## Usage
 
+1. Add bracket_control.py file in the same directory as your project.
+2. Put the following one line in your project:
 ```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+import bracket_control
 ```
