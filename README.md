@@ -24,3 +24,25 @@ bracket_control.isBalanced('([{}])')
 # returns 'NO'
 bracket_control.isBalanced('(]')
 ```
+
+
+# Unit Test
+
+## Installation
+pytest requires : Python 3.7+
+
+1. Run the following command in your command line:
+```bash
+pip install -U pytest
+```
+2. Check that you installed correct version:
+```bash
+$ pytest –version
+	pytest 7.1.2
+```
+
+## Run pytest
+1. Run the following command in your command line:
+```bash
+python -m pytest test_bracket_control.py
+```
